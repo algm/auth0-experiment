@@ -150,6 +150,7 @@ return [
         /*
          * Package Service Providers...
          */
+        \Auth0\Login\LoginServiceProvider::class,
 
         /*
          * Application Service Providers...
@@ -209,6 +210,7 @@ return [
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
 
+        'Auth0' => \Auth0\Login\Facade\Auth0::class,
     ],
 
 ];
